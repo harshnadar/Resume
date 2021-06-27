@@ -1,0 +1,210 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{multicol}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Harsh}{Nadar}
+% \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{D-905, Ansal Courtyard, Modipuram, Meerut, UP (250110) }{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+% \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+% \email{xpan1@swarthmore.edu}                               % optional, remove / comment the line if not wanted
+% \homepage{shawnpan.me}                         % optional, remove / comment the line if not wanted
+% \extrainfo{}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+  
+\newcommand*{\customcventry}[7][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\setlength{\tabcolsep}{12pt}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-23mm}
+
+\begin{center}
+\begin{tabular}{ c c c c }
+ \faEnvelopeO\enspace harshnadar.eee18@itbhu.ac.in & \faGithub\enspace \href{https://github.com/harshnadar}{harshnadar} & \faMobile\enspace 6397419551\\  
+\end{tabular}
+\end{center}
+
+\section{EDUCATION}
+{\customcventry{Expected Graduation: June 2022}{B.Tech in Electrical Engineering GPA: 9.18/10.0}{Indian Institute of Technology (BHU), Varanasi}{Varanasi, UP}{}{}}
+{\customcventry{Passed: May 2018}{PCM AISSCE : 97\%}{GTB Public School}{Meerut, UP}{}{}}
+
+\section{Skills}
+\begin{minipage}{\maincolumnwidth}%
+	\small{
+    	\begin{itemize}
+          \item Languages: C, C++, Python, HTML/CSS, Javascript, Java, SQL
+          \item Frameworks and Technologies: Scikit-Learn, Tensorflow, React, REST, Spring, Beautiful Soup 
+          \item Relevant Courses: Probability and Statistics, Artificial Intelligence, Linear Algebra, CSO 101, Trading Basics, Sequence Time Series and Prediction
+		\end{itemize}}%
+\end{minipage}%
+
+
+\section{EXPERIENCE}
+
+{\customcventry{May 2021 - July 2021 (Ongoing)}{Software Engineer Intern}{Bank of New York Mellon}{Remote}{}
+{\begin{itemize}
+  \item Working on shifting the tech-stack from Quartz Scheduler to Spring Scheduler as a part of CCT (Clearance and Collateral Technology) team.
+  \item Quartz updates are to be done manually. This leads to unnecessary workload on the tech staff. Spring Scheduler, however, updates automatically on updating the Spring version.
+  \item Working on Low-Level Design including table design, service layer and code structure.
+  \item Exposure: Spring Boot, Maven, Spring Scheduler, Spring Data JPA
+\end{itemize}
+}
+
+{\customcventry{April 2020 – Aug 2020}{Data Intern}{ISB Hyderabad}{Remote}{}
+{\begin{itemize}
+  \item Worked under Prof. Anand Vijayasankaran on his project on Organisational Behavior.
+  \item Ascertained and defined various sources to extract data suitable for the research objective. Used web scraping techniques to extract useful information related to CEO/CFO/CTOs and companies from various sources like Wikipedia, Glassdoor, Mergentonline, etc.
+  \item Worked on thousands of downloaded text files to extract information. Used Regex in python and preprocessed the same into a data frame ready for analysis.
+  \item Exposure - Web automation, Web scraping, Regex, Data Preprocessing
+\end{itemize}
+}
+
+\section{PROJECTS}
+
+{\customcvproject{IPL Dashboard}{May 2021 - June 2021}
+  {\begin{itemize}
+    \item Built a Full Stack Web App. This project was basically aimed on learning by doing.
+    \item The app has features to browse through favourite IPL team and get details of it's previous matches.
+    \item Exposure: Spring Boot, Spring Data JPA, Spring Batch, HSQL DB, React JS
+  \end{itemize}
+  }
+}
+
+{\customcvproject{Cascade Cup}{Dec 2020 – Jan 2021}
+{\begin{itemize}
+  \item The Event was organized by Consulting and Analytics Club, IIT G in association with Trell. The event took place in 3 rounds. Round 1 being data analytics and data science quiz.
+  \item In Round 2, we're given Real Life data by Trell. Had to prepare a predictive model to predict the age group of their users.
+  \item Round 3 was Data Analysis Eveent. We're given data of a courier company in Brazil and had to do analysis of absenteeism in the company. Did Exploratory Data Analysis (EDA) and came up with inferences and hypothesis and backed them up with data.
+  \item Exposure: Data Science, Predictive Modelling, Data Preprocessing, Tree Algorithms, EDA
+\end{itemize}
+}
+
+\section{Position of Responsibility}
+\begin{minipage}{\maincolumnwidth}%
+	\small{
+    	\begin{itemize}
+          \item Secretary | Business Club, IIT BHU : In charge of the Club's Product, Analytics and Finance wing. Revamped online content delivery making it more targeted. Worked on the maiden IIT(BHU) Institute Casebook. Collaborated with other IITs and Organizations for various events in the domains of Finance and Product.
+          \item Founding Member | Share, IIT BHU Chapter : ShARE is an innovative start-up at the crossroad of education and consulting.
+		\end{itemize}}%
+\end{minipage}%
+
+\section{Achievements}
+\begin{minipage}{\maincolumnwidth}%
+	\small{
+    	\begin{itemize}
+          \item Inter IIT Tech Meet 9.0, IIT G: Gold medal in The Product Folks Product Case Study Competition. Worked on various methods to automate payouts on an initial stage Startup App: Kaching.
+          \item Inter IIT Tech Meet 8.0, IIT R: Awarded for event 'Outreach Exercise for TV Audience Measurement'. Current Television Audience Measurement systems can become handy in monitoring a person’s mental health by adding one more tool to the setup- a way to detect their response to the type of content that was consumed. The event was judged by Alphonso.
+          \item First amongst first/second year in Machine Learning event "Enigma", organised by Dept of Computer Science, IIT BHU as a part of Codefest'19.
+          \item Top 1 percentile: Data Science Competition (Cascade Cup) organized by IIT Guwhati in Association with Trell
+          \item Third in "Bulls on the Floor", virtual stock trading event in TECHNEX'20
+		\end{itemize}}%
+\end{minipage}%
+      
+}
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
