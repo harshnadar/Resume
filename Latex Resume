@@ -146,7 +146,7 @@
 
 \section{PROJECTS}
 
-{\customcvproject{IPL Dashboard}{May 2021 - June 2021}
+{\customcvproject{\href{https://github.com/harshnadar/IPL_Dashboard}{IPL Dashboard}}{May 2021 - June 2021}
   {\begin{itemize}
     \item Built a Full Stack Web App. This project was basically aimed on learning by doing.
     \item The app has features to browse through favourite IPL team and get details of it's previous matches.
@@ -155,12 +155,21 @@
   }
 }
 
-{\customcvproject{Cascade Cup}{Dec 2020 – Jan 2021}
+{\customcvproject{\href{https://github.com/harshnadar/Cascade-Cup-Final-Round}{Cascade Cup}}{Dec 2020 – Jan 2021}
 {\begin{itemize}
   \item The Event was organized by Consulting and Analytics Club, IIT G in association with Trell. The event took place in 3 rounds. Round 1 being data analytics and data science quiz.
   \item In Round 2, we're given Real Life data by Trell. Had to prepare a predictive model to predict the age group of their users.
   \item Round 3 was Data Analysis Eveent. We're given data of a courier company in Brazil and had to do analysis of absenteeism in the company. Did Exploratory Data Analysis (EDA) and came up with inferences and hypothesis and backed them up with data.
   \item Exposure: Data Science, Predictive Modelling, Data Preprocessing, Tree Algorithms, EDA
+\end{itemize}
+}
+
+{\customcvproject{\href{https://github.com/harshnadar/Codefest_enigma}{Predict Citation Count for Research Papers}}{Aur 2019 – Aug 2019}
+{\begin{itemize}
+  \item Train.csv - This had research papers with several attributes and their citation counts.
+  Author.csv- Each research paper had several authors and various attributes about these were given in this.
+  \item Feature Engineering - For a particular research paper, used author data to gather the top 3 common interest fields for all the authors in that particular paper.
+  \item Model - Converted the top 3 topics for each paper to an embedded vector of 8 dimensions Then applied a simple neural model with activation function "selu"
 \end{itemize}
 }
 
