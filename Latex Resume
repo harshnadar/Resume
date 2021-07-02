@@ -149,7 +149,8 @@
 {\customcvproject{\href{https://github.com/harshnadar/IPL_Dashboard}{IPL Dashboard}}{May 2021 - June 2021}
   {\begin{itemize}
     \item Built a Full Stack Web App. This project was basically aimed on learning by doing.
-    \item The app has features to browse through favourite IPL team and get details of it's previous matches.
+    \item The app has features to browse through favourite IPL team and get details of its previous matches.
+    \item Used data from Kaggle. The matches are accessible by team name and year.
     \item Exposure: Spring Boot, Spring Data JPA, Spring Batch, HSQL DB, React JS
   \end{itemize}
   }
@@ -186,10 +187,11 @@
 \begin{minipage}{\maincolumnwidth}%
 	\small{
     	\begin{itemize}
-          \item Inter IIT Tech Meet 9.0, IIT G: Gold medal in The Product Folks Product Case Study Competition. Worked on various methods to automate payouts on an initial stage Startup App: Kaching.
-          \item Inter IIT Tech Meet 8.0, IIT R: Awarded for event 'Outreach Exercise for TV Audience Measurement'. Current Television Audience Measurement systems can become handy in monitoring a person’s mental health by adding one more tool to the setup- a way to detect their response to the type of content that was consumed. The event was judged by Alphonso.
+          \item Inter IIT Tech Meet 9.0, IIT Guwahati: Gold medal in The Product Folks Product Case Study Competition. Worked on various methods to automate payouts on an early stage Startup App: Kaching.
+          \item Inter IIT Tech Meet 8.0, IIT Roorkee: Awarded for event 'Outreach Exercise for TV Audience Measurement'. Current Television Audience Measurement systems can become handy in monitoring a person’s mental health by adding one more tool to the setup- a way to detect their response to the type of content that was consumed. The event was judged by Alphonso.
           \item First amongst first/second year in Machine Learning event "Enigma", organised by Dept of Computer Science, IIT BHU as a part of Codefest'19.
           \item Top 1 percentile: Data Science Competition (Cascade Cup) organized by IIT Guwhati in Association with Trell
+          \item Hult Prize Bangkok regionals Finalists: Pitched a startup idea that aimed at controlling food wastage in office spaces. Stood second at campus level and were called for pitching in Bangkok regional finals.
           \item Third in "Bulls on the Floor", virtual stock trading event in TECHNEX'20
 		\end{itemize}}%
 \end{minipage}%
