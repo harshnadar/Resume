@@ -148,19 +148,21 @@
 
 {\customcvproject{\href{https://github.com/harshnadar/IPL_Dashboard}{IPL Dashboard}}{May 2021 - June 2021}
   {\begin{itemize}
-    \item Built a Full Stack Web App. The app has features to browse through favourite IPL team and get details of its previous matches: accessible by team name and year.
+    \item Built a Full Stack Web App.
+    \item Built a REST api using Spring Boot after processing the data.
+    \item The api was then consumed by React to showcase data on the frontend
     % \item  Used data from Kaggle.
     \item Exposure: Spring Boot, Spring Data JPA, Spring Batch, HSQL DB, React JS
   \end{itemize}
   }
 }
 
-{\customcvproject{\href{https://github.com/harshnadar/Cascade-Cup-Final-Round}{Cascade Cup}}{Dec 2020 – Jan 2021}
+{\customcvproject{Outreach Exercise for TV Audience Measurement}{Nov 2019 – Dec 2019}
 {\begin{itemize}
-  \item The Event was organized by Consulting and Analytics Club, IIT G in association with Trell. The event took place in 3 rounds. Round 1 being data analytics and data science quiz.
-  \item In Round 2, we're given Real Life data by Trell. Prepared a predictive model to predict the age group of their users.
-  \item Round 3 was Data Analysis Eveent. We're given data of a courier company in Brazil and had to do analysis of absenteeism in the company. Did Exploratory Data Analysis (EDA) and came up with inferences and hypothesis and backed them up with data.
-  \item Exposure: Data Science, Predictive Modelling, Data Preprocessing, Tree Algorithms, EDA
+  \item Current Television Audience Measurement systems can become handy in monitoring a person’s mental health by adding one more tool to the setup- a way to detect their response to the type of content that was consumed
+  \item Captured heart rate data through fitness bands. The band would send the PPG(sensor) signal in real-time.
+  \item Implemented a basic CNN model after preprocessing the data to determine short-term emotions.
+  \item Exposure: Deep Learning, Data Preprocessing, Neural Networks
 \end{itemize}
 }
 
@@ -177,8 +179,8 @@
 \begin{minipage}{\maincolumnwidth}%
 	\small{
     	\begin{itemize}
-          \item Secretary | Business Club, IIT BHU : In charge of the Club's Product, Analytics and Finance wing. Revamped online content delivery making it more targeted. Worked on the maiden IIT(BHU) Institute Casebook. Collaborated with other IITs and Organizations for various events in the domains of Finance and Product.
-          \item Founding Member | Share, IIT BHU Chapter : ShARE is an innovative start-up at the crossroad of education and consulting.
+          \item \textbf{Secretary | Business Club, IIT BHU}: In charge of the Club's Product, Analytics and Finance wing. Revamped online content delivery making it more targeted. Worked on the maiden IIT(BHU) Institute Casebook. Collaborated with other IITs and Organizations for various events in the domains of Finance and Product.
+          \item \textbf{Founding Member | Share, IIT BHU Chapter}: ShARE is an innovative start-up at the crossroad of education and consulting.
 		\end{itemize}}%
 \end{minipage}%
 
@@ -186,12 +188,13 @@
 \begin{minipage}{\maincolumnwidth}%
 	\small{
     	\begin{itemize}
-          \item Inter IIT Tech Meet 9.0, IIT Guwahati: Gold medal in The Product Folks Product Case Study Competition. Worked on various methods to automate payouts on an early stage Startup App: Kaching.
-          \item Inter IIT Tech Meet 8.0, IIT Roorkee: Awarded for event 'Outreach Exercise for TV Audience Measurement'. Current Television Audience Measurement systems can become handy in monitoring a person’s mental health by adding one more tool to the setup- a way to detect their response to the type of content that was consumed. The event was judged by Alphonso.
-          \item First amongst first/second year in Machine Learning event "Enigma", organised by Dept of Computer Science, IIT BHU as a part of Codefest'19.
-          \item Top 1 percentile: Data Science Competition (Cascade Cup) organized by IIT Guwhati in Association with Trell
-          \item Hult Prize Bangkok regionals Finalists: Pitched a startup idea that aimed at controlling food wastage in office spaces. Stood second at campus level and were called for pitching in Bangkok regional finals.
-          \item Third in "Bulls on the Floor", virtual stock trading event in TECHNEX'20
+          \item \textbf{Gold | Inter IIT Tech Meet 9.0, IIT Guwahati}: Gold medal in The Product Folks Product Case Study Competition. Worked on various methods to automate payouts on an early stage Startup App: Kaching.
+          \item \textbf{Gold | Inter IIT Tech Meet 8.0, IIT Roorkee}: Awarded for event 'Outreach Exercise for TV Audience Measurement'. Current Television Audience Measurement systems can become handy in monitoring a person’s mental health by adding one more tool to the setup- a way to detect their response to the type of content that was consumed. The event was judged by Alphonso.
+          \item \textbf{Expert} on Codeforces (handle: \_idgaf\_ , rating: 1617)
+          \item \textbf{First} amongst first/second year in Machine Learning event "Enigma", organised by Dept of Computer Science, IIT BHU as a part of Codefest'19.
+          \item \textbf{Top 1 percentile}: Data Science Competition (Cascade Cup) organized by IIT Guwhati in Association with Trell
+          \item \textbf{Hult Prize Bangkok regionals Finalists}: Pitched a startup idea that aimed at controlling food wastage in office spaces. Stood second at campus level and were called for pitching in Bangkok regional finals.
+          \item \textbf{Third} in "Bulls on the Floor", virtual stock trading event in TECHNEX'20
 		\end{itemize}}%
 \end{minipage}%
       
